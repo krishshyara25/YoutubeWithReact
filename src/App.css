@@ -68,17 +68,26 @@
   display: grid;
   align-items: center;
   margin-left: 35%;
+  padding-right: 4px;
   height: 5vh;
-  grid-template-columns:93% 7%;
+  grid-template-columns:100% 0%;
 }
 .SearchText{
   color: #7e7e7e;
-  margin-left: 3%;
+  margin-left: 1%;
+  background: transparent;
+  border: 1px;
+  width: 87%;
+  height: 4vh;
 }
 .SearchImg{
   background-color: #323232;
   width: 67%;
   padding: 17%;
+}
+.SearchButton{
+  height: 4vh;
+    width: 12%;
 }
 .MicImg{
   align-self: center;
